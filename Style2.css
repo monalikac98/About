@@ -1,0 +1,454 @@
+body{
+    background-color: black;
+    display: grid;
+    grid-template-columns: 300px, auto;
+    grid-template-rows: 40px 530px 1500px ;
+    grid-template-areas: "head  head"
+                         " main section"
+                         "aside  aside";
+
+
+}
+
+ul,li{
+    display:inline-block;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-family: cursive;
+   
+}
+    
+    
+nav a{
+color:goldenrod;
+text-decoration: none;
+font-size:larger;
+ align-items: center;
+}
+
+#nav a:hover{
+    color:green;
+}
+
+a:hover{
+    color:darkgray;
+}
+
+
+/*Monalika*/
+h2{ 
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    color: darkcyan;
+    text-align: end;
+    padding-right: 25%;
+
+}
+
+/*hi */
+h1{
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    color: darkcyan;
+    text-align: end;
+    padding-top:10px;
+    padding-right:50%;
+   
+   
+}
+/*I Am*/
+h3{
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    color: darkcyan;
+    text-align: end;
+    padding-top:10px;
+    padding-right:45%;
+    
+
+}
+
+/*About me*/
+h5{
+    
+    
+    
+    padding-left:10px;
+    color:goldenrod;
+    font-size: small;
+    font-family: cursive;
+    text-align: justify;
+    
+    
+    
+}
+h4{
+    color:white;
+    text-align:end;
+    padding-right:20%;
+    font-size:medium;
+
+
+}
+
+section {
+
+     background-color:black;
+    grid-area: section;
+    text-decoration:none;
+
+}
+section a img{
+    width:40px;
+    height:40px;
+    
+
+    
+
+}
+
+ img{
+    width:680px;
+    height:490px;
+   align-items: start;
+   padding-left: 10%;
+   padding-top:40px;
+  
+}
+
+header{
+    background-color: darkslategrey;
+    grid-area: head;
+    padding:0;
+    margin:0;
+
+}
+
+main{
+    grid-area: main;
+    background-color: black;
+
+}
+
+aside{
+    grid-area: aside;
+    background-color: black;
+
+}
+
+#box-model{
+    /*background-color:darkslategrey;*/
+    background: rgba(38, 41, 40, 0.5);
+   
+    margin-top:30px;
+    margin-left: 70px;
+   
+    
+   
+    height: 2000px;
+    width: 1200px;
+}
+
+#About h1{
+    color: rgb(20, 236, 154);
+    
+
+    
+    text-align: start;
+    margin-top:40px;
+    padding-top: 20px;;
+    margin-left:35px;
+    font-size:40px;
+}
+
+#About p{
+    color:white;
+    margin-left:35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: start;
+
+}
+#About a{
+    color:white;
+    margin-left:35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: start;
+    text-decoration: none;
+}
+#About a:hover{
+    color:greenyellow;
+}
+
+#box-model-2{
+    background-color:transparent;
+    display:grid;
+    grid-template-columns: 50% auto;
+    grid-template-areas: "article footer";
+    height:400px;}
+
+
+#personal h3{
+   font-size:20px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   text-align: none;
+   position: relative;
+   padding-left:20px;
+  
+}
+
+#personal p{
+    margin-left:20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    margin-right: 50px;
+    color:white;
+    border-bottom: 1px solid grey;
+    font-size:large;
+    text-align: start;
+    
+}
+
+     
+
+ 
+ article{
+     grid-area: article;
+
+ }
+
+ article p{
+    margin-left:20px;
+    color:white;
+    text-align: start;
+ }
+
+ footer{
+    grid-area: footer;
+        }
+
+ footer h3{
+    font-size:20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: none;
+    position: relative;
+    padding-left:20px;
+ }
+
+ #mail
+ {
+    margin-left:20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    margin-right: 50px;
+    color:white; 
+    font-size:large;
+    text-align: start;
+ }
+
+ footer h5{
+     font-size: medium;
+     margin-left:30px;
+     padding-left:20px;
+ }
+ span{
+     color:goldenrod;
+     margin-left :30px;
+     padding-left:20px;
+ }
+
+progress[value]{
+    -webkit-appearance: none;
+   appearance: none;
+   
+    width: 200px;
+    height:20px;
+    
+
+}
+
+progress[value]::-webkit-progress-bar {
+    background-color: #eee;
+    border-radius: 2px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+  }
+
+  #skills{
+    margin-left:90px;
+    padding-left: 20px;
+
+  }
+
+  
+  #edu h1{
+      
+     
+    color: rgb(20, 236, 154);
+    text-align: start;
+    margin-top:80px;
+    padding-top: 20px;
+    margin-left:35px;
+   margin-right:10px;
+    font-size:40px;
+
+  }
+  
+  #box-model-3{
+      display:grid;
+      grid-template-columns: 400px 400px 400px;
+    grid-template-areas: "article aside section";
+    
+    height:250px;
+
+  }
+
+  #box-model-3 article{
+      grid-area:article;
+      background: rgba(67, 77, 73, 0.5);
+      margin-left:20px;
+      margin-right:10px;
+     
+  }
+ 
+  #box-model-3 aside{
+    grid-area:aside;
+    background: rgba(67, 77, 73, 0.5);
+    margin-right:10px;
+}
+
+#box-model-3 section{
+    
+    grid-area:section;
+    background: rgba(67, 77, 73, 0.5);
+    margin-right:20px;
+}
+
+.column1 h6, h4, p{
+    text-align: center;
+    
+}
+h4:hover{
+    color:goldenrod;
+}
+
+
+
+#edu h6{
+    font-size: medium;
+    color: darkcyan;
+    text-align: center;
+   
+}
+
+#edu h4{
+    margin-left: 42px;
+    padding-left:25px;
+    text-align: center;
+}
+
+#edu p{
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-size:medium;
+     text-align: center;
+     
+}
+    
+#hobby{
+    display:grid;
+    grid-template-columns: 600px 600px;
+    grid-template-areas: "footer section";
+    height:200px;
+    
+}
+
+#hobby footer{
+    grid-area: footer;
+    background-color: transparent;
+    margin-left:30px;
+
+
+}
+#hobby p{
+    padding-top:10px;
+    padding-bottom:10px;
+    background-color:rgba(67, 77, 73, 0.5);
+    text-align:center;
+    
+    
+}
+
+footer img{
+    width:50px;
+    height:50px;
+    margin-right:10px;
+    margin-left:50px;}
+
+    
+section img{
+    width:50px;
+    height:50px;
+    margin-right:10px;
+    margin-left:50px;}
+    
+    
+
+
+#hobby section{
+grid-area: section;
+background-color: transparent;
+margin-right:30px;
+margin-left:40px;
+}
+
+footer a{
+    text-align:center;
+    font-size: large;
+    margin-left:220px;
+    margin-bottom:20px;
+    padding-bottom:20px;
+}
+
+#certi{
+    display:grid;
+   grid-template-areas: "summary";
+  
+  height:250px;
+
+}
+ #box-model-4 summary{
+    grid-area:summary;
+    background-color:rgba(67, 77, 73, 0.5); 
+    margin-left:10%;
+    width:1000px;
+    height:300px;
+
+}
+ #certificates h2{
+    
+     margin-top:30px ;
+     padding-top:50px;
+     padding-left:20px;
+    font-size:35px;
+    color: rgb(20, 236, 154);
+    text-align:start;
+
+}
+
+#certi p{
+    padding-top:30px;
+    text-align: center;
+    
+}
+
+#bold:hover{
+color:goldenrod;
+}
+
+
+
+   
+
+
+ 
+
+

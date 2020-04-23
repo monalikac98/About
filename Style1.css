@@ -1,0 +1,151 @@
+body{
+    background-image: url(trig.PNG);
+    background-size: cover;
+}
+
+
+#Main-Headings{
+    
+    padding-top: 10px;
+    padding-bottom: 40px;
+    text-align: center;
+    color:darkcyan;
+}
+
+
+
+#form
+{
+    text-align: center;
+    color: snow;
+    text-decoration: white;
+}
+
+
+#Username {
+     border:none;
+     border-bottom: 1px solid white;
+     background:transparent;
+     outline:none;
+     height:40px;
+     color:white;
+     font-size:16px;
+}
+
+#pass{
+    border:none;
+     border-bottom: 1px solid white;
+     background:transparent;
+     outline:none;
+     height:40px;
+     color:white;
+     font-size:16px;
+     text-align: center;
+     margin-left:50px;
+
+}
+#UName{
+    text-align: start;
+    margin-left:20px;
+    margin-top:20px;
+    font-family: cursive;
+}
+   
+    
+
+
+.login-box input{
+    width:100%;
+    margin-bottom: 20px;
+    margin-left:60px;
+
+}
+
+
+
+
+#password{
+    text-align: start;
+    margin-left:20px;
+    font-family: cursive;
+   
+}
+
+
+#remember{
+    text-align: start;
+    padding: 5px 20px 20px 5px;
+   /* margin: 0 10px 0 230px;*/
+}
+
+
+#box-model-1{
+     margin-left: 490px;
+     margin-top: 0;
+     /*border: 2px solid white;*/
+     padding-top: 0;
+    background-color:black;
+     padding-right: 50px;
+     width: 840px;
+     height: 700px;
+     
+    
+}
+
+section{
+    display:grid;
+    grid-template-columns: 250px;
+    background-color: black;
+    box-sizing: border-box;
+    transform:translate(-10%,-5%);
+    
+    width: 380px;
+    height: 380px;
+
+    margin-left: 250px;
+    margin-right: 270px;
+
+}
+
+#Sign-Up{
+
+    display: inline-block;
+    border: none;
+    height: 30px;
+    width: 250px;
+    padding: 16px, 32px;
+    background-color: #ff267e;
+    text-align: center;
+    text-decoration-color: white;
+    cursor: pointer;
+    border-radius: 20px;
+    margin-top:30px;
+}
+
+#Sign-Up{
+    align-items: center;
+    margin-left: 60px;
+    
+}
+
+#submit a{
+    color: white;
+    font-size: 20px;
+    font-family: cursive;
+    text-decoration: none;
+}
+
+#forgot{
+    margin-top: 20px;
+    padding:  16px, 32px;
+    text-align: center;
+    margin-left:100px;
+
+}
+
+#Already{
+    margin-top: 10px;
+    padding:  16px, 32px;
+    text-align: center;
+    margin-left:100px;
+}
