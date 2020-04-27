@@ -19,13 +19,15 @@ function validateForm(){
     {
         alert("Login sucessful");
         window.location="Aboutme.html";
+        false;
     }
 
     
 
     else {
-       alert("Login successful");
-       window.location="Aboutme.html";
+       alert("wrong credentials!!");
+       
+       true;
     }
 
 }
